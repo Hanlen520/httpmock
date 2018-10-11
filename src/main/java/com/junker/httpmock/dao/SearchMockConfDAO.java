@@ -1,14 +1,14 @@
-package com.junker.mock.dao;
+package com.junker.httpmock.dao;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.junker.mock.data.FormData;
-import com.junker.mock.data.MockDetailData;
-import com.junker.mock.util.PropertiesUtil;
-import com.junker.mock.util.SQLUtil;
+import com.junker.httpmock.data.FormData;
+import com.junker.httpmock.data.MockDetailData;
+import com.junker.httpmock.util.PropertiesUtil;
+import com.junker.httpmock.util.SQLUtil;
 import org.apache.log4j.Logger;
 
 public class SearchMockConfDAO {

@@ -8,7 +8,7 @@
 
   <servlet>
     <servlet-name>MockerServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockerServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockerServlet</servlet-class>
     <init-param>
       <param-name>log4jpath</param-name>
       <!--引自若未指定，则使用工程目录，若指定，使用指定目录&ndash;&gt;-->
@@ -22,7 +22,7 @@
 
   <servlet>
     <servlet-name>IndexPageServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.IndexPageServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.IndexPageServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -32,7 +32,7 @@
 
   <servlet>
     <servlet-name>SelectOptionServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.SelectOptionServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.SelectOptionServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -43,7 +43,7 @@
 
   <servlet>
     <servlet-name>MockDetailSearchServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockDetailSearchServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockDetailSearchServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -53,7 +53,7 @@
 
   <servlet>
     <servlet-name>ModifySubmitServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.ModifySubmitServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.ModifySubmitServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -64,7 +64,7 @@
 
   <servlet>
     <servlet-name>MockDetailDeleteServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockDetailDeleteServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockDetailDeleteServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -74,7 +74,7 @@
 
   <servlet>
     <servlet-name>MockConditionSearchServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockConditionSearchServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockConditionSearchServlet</servlet-class>
 
   </servlet>
   <servlet-mapping>
@@ -84,7 +84,7 @@
 
   <servlet>
     <servlet-name>MockConditionSettingServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockConditionSettingServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockConditionSettingServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MockConditionSettingServlet</servlet-name>
@@ -93,7 +93,7 @@
 
   <servlet>
     <servlet-name>MockDetailCreateServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockDetailCreateServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockDetailCreateServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MockDetailCreateServlet</servlet-name>
@@ -102,7 +102,7 @@
 
   <servlet>
     <servlet-name>MockAPICreateServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockAPICreateServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockAPICreateServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MockAPICreateServlet</servlet-name>
@@ -111,7 +111,7 @@
 
   <servlet>
     <servlet-name>MockAuthorCreateServlet</servlet-name>
-    <servlet-class>com.junker.mock.servlet.MockAuthorCreateServlet</servlet-class>
+    <servlet-class>com.junker.httpmock.servlet.MockAuthorCreateServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MockAuthorCreateServlet</servlet-name>

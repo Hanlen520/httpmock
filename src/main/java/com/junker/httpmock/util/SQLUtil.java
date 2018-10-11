@@ -1,4 +1,4 @@
-package com.junker.mock.util;
+package com.junker.httpmock.util;
 
 import java.io.IOException;
 import java.io.InputStream;

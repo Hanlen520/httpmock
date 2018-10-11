@@ -1,10 +1,10 @@
-package com.junker.mock.util;
+package com.junker.httpmock.util;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-import com.junker.mock.dao.SearchMockConfDAO;
+import com.junker.httpmock.dao.SearchMockConfDAO;
 import org.json.JSONObject;
 
 public class MockUtil {

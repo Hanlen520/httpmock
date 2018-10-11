@@ -1,7 +1,7 @@
-package com.junker.mock.servlet;
+package com.junker.httpmock.servlet;
 
-import com.junker.mock.dao.SearchMockConfDAO;
-import com.junker.mock.util.RegexUtil;
+import com.junker.httpmock.dao.SearchMockConfDAO;
+import com.junker.httpmock.util.RegexUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

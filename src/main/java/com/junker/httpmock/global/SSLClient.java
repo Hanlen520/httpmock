@@ -1,4 +1,4 @@
-package com.junker.mock.global;
+package com.junker.httpmock.global;
 
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;

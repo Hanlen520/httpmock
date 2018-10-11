@@ -1,7 +1,7 @@
-package com.junker.mock.servlet;
+package com.junker.httpmock.servlet;
 
-import com.junker.mock.dao.SearchMockConfDAO;
-import com.junker.mock.util.JsonStringExchangeUtil;
+import com.junker.httpmock.dao.SearchMockConfDAO;
+import com.junker.httpmock.util.JsonStringExchangeUtil;
 import net.sf.json.JSONObject;
 
 import javax.servlet.ServletException;

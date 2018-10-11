@@ -1,6 +1,6 @@
-package com.junker.mock.util;
+package com.junker.httpmock.util;
 
-import com.junker.mock.dao.SearchMockConfDAO;
+import com.junker.httpmock.dao.SearchMockConfDAO;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;

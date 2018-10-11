@@ -1,4 +1,4 @@
-package com.junker.mock.util;
+package com.junker.httpmock.util;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.junker.mock.global.SSLClient;
+import com.junker.httpmock.global.SSLClient;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;

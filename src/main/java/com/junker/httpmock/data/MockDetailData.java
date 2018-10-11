@@ -1,4 +1,4 @@
-package com.junker.mock.data;
+package com.junker.httpmock.data;
 
 import java.util.HashMap;
 

@@ -1,7 +1,7 @@
-package com.junker.mock.servlet;
+package com.junker.httpmock.servlet;
 
-import com.junker.mock.dao.SearchMockConfDAO;
-import com.junker.mock.data.FormData;
+import com.junker.httpmock.dao.SearchMockConfDAO;
+import com.junker.httpmock.data.FormData;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
