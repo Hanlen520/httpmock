@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="httpmock:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="httpmock.war">
+      <element id="artifact" artifact-name="httpmock:war exploded" />
+    </root>
+  </artifact>
+</component>
